@@ -1,7 +1,7 @@
 Shiny Stock Returns
 ========================================================
 author: Ronny De Winter
-date: 2016-03-10  
+date: 2016-03-21 
 font-family: 'Helvetica'
 transition: concave
 --
@@ -31,12 +31,12 @@ goto http://shiny.rstudio.com/ronnydw/shinyStockReturns
 
 In a terminal: download the code from github
 ```
-Desktop$ git clone http://...
+Desktop$ git clone http://github.com/ronnydw/shinyStockReturns
 ```
 In RStudio: run the shiny app
 ```{r, eval=FALSE}
 setwd("~/Desktop/shinyStockReturns")
-runApp("shinyStockReturns")
+runApp()
 ```
 
 Your feedback is welcome
