@@ -1,0 +1,48 @@
+Shiny Stock Returns
+========================================================
+author: Ronny De Winter
+date: 2016-03-10  
+font-family: 'Helvetica'
+transition: concave
+--
+![Screen Shot app](screen-shot-app.PNG)
+
+A shiny app for investors
+========================================================
+## Evaluate the return of your stocks
+The return in % tells you more than the stock price
+
+- Supports all stock symbols available at [__Yahoo finance__](http://finance.yahoo.com/lookup)
+- Interactive slider for returns from the last 6 to 60 months
+- Compare the return of your stock with another one and/or an index (S&P500, Eurostoxx50)
+- Graph with adjusted prices, taken into account dividends, stock splits
+- Visualized trends with smooth curves
+
+Investment tip
+========================================================
+silver price lags behind gold price:
+![Screen Shot app](screen-shot-SLV-GLD.png)
+
+Try it now!
+========================================================
+goto http://shiny.rstudio.com/ronnydw/shinyStockReturns
+
+## Or run it in RStudio:
+
+In a terminal: download the code from github
+```
+Desktop$ git clone http://...
+```
+In RStudio: run the shiny app
+```{r, eval=FALSE}
+setwd("~/Desktop/shinyStockReturns")
+runApp("shinyStockReturns")
+```
+
+Your feedback is welcome
+========================================================
+
+- mailto: quotesviewer@gmail.com
+- Fork on github
+
+## _Good luck with your investments!_
