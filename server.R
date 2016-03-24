@@ -1,4 +1,5 @@
 library(shiny)
+library(mgcv)
 library(quantmod)
 library(ggplot2)
 
