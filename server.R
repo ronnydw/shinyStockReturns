@@ -46,9 +46,9 @@ shinyServer(
          dfi <- refData()
          if (!is.null(dfi)) df <- rbind(df, dfi)
          g <- ggplot(df, aes(x=date, y=return, col=symbol)) + geom_line() + geom_smooth() + 
-              ggtitle("Return in %") + theme_bw(base_size = 18) + 
-              theme(legend.position =c(1,1.05), legend.direction="horizontal", legend.justification="right") +
-              labs(colour = "")
+              labs(title = "Return in %", colour = "", x = "", y="") +
+              theme_bw(base_size = 18) + 
+              theme(legend.position =c(1,1.05), legend.direction="horizontal", legend.justification="right")
          g
     })
     
